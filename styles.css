@@ -256,3 +256,80 @@
     text-align: center;
     color: #4B5D68;
 }
+  .Everything-section {
+   width: 144rem;
+   height: 111.3rem;
+   gap: 48px;
+   display:flex;
+   background-color: #6468A6; 
+
+} 
+.one-piece { 
+   width: 117rem;
+   height: 91.3rem;
+   background-color: #FFFFFF; 
+   margin-inline: auto;  
+
+}  
+.one-piece h3 {
+   font-family: "Poppins", sans-serif;
+   font-size: 3.8rem;
+   font-weight: 700;
+   text-align: center; */
+}
+ .All-tracks {
+   width: 117rem;
+   height: 81.6rem;
+   top: 145px;
+   left: 135px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+}  */
+   .Card-row { 
+   width: 117rem;
+   height: 38.4rem;
+   top: 577px;
+   left: 135px;
+   gap: 32px;
+   display: flex;
+} 
+.Feature-card {
+   max-width: 37rem;
+   height: 38.4rem;
+   padding: 40px 30px 40px 30px;
+   border-radius: 20px;
+   border: 1px 0px 0px 0px;
+   justify: space-between;
+}
+.Card-info {
+   width: 31rem;
+   height: 24.4rem;
+   gap: 30px;
+   display: flex;
+} */
+ .Card-info figure {
+   width: 8.2rem;
+   hieght: 8.2rem;
+}
+.text {
+   width: 31rem;
+   height: 13.2rem;
+   gap: 24px;
+   display: flex;
+   flex-direction: column;
+}
+.text h4 {
+   font-family: "Poppins", sans-serif;
+   font-size: 2.8rem;
+   font-weight: 600;
+   text-align: center;
+   color: #212353;
+;
+}
+.text p {
+   font-family: "Mulish", sans-serif;
+   font-size: 1.6rem;
+   font-weight: 400;
+   text-align: center;
+} 
