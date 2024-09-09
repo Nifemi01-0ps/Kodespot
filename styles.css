@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ list-style: none;
+ }
+  html{
+   font-size: 62.5%;
+  }
+  body{
+   margin: 0 auto; 
+  }
+  .Kodespot {
+   border: 5px solid red;
+   margin: auto;
+   inset: 0;
+   max-width: 144rem;
+   max-height: 501.2rem;
+   width: 1440px;
+   background: #F8F9FF;
+  }
+  .Header {
+   width: 144rem;
+   height: 68rem;
+   padding: 33px 60px 33px 60px;
+   gap: 100px;
+
+   margin: auto;
+   background: #FFFFFF;
+  }
+  .Navbar {
+  width: 131rem;
+  min-height: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+  .Navbar figure img {
+   width: 23rem;
+   height: 6rem;
+  }
+  .Frame-8 {
+     min-width: 74.9rem;
+     min-height: 6rem;
+     display: flex;
+     justify-content: center;
+  }
+  .nav-links {
+     width: 74.9rem;
+     height: 6rem;
+     display: flex;
+     gap: 32px;
+     align-items: center;
+  }
+  .nav-links ul {
+     width: 49.6rem;
+     height: 2.4rem;
+     display: flex;
+     gap: 32px;
+     color: #4B5D68;
+
+  }
+  .nav-links ul li {
+     font-family: "Poppins", sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+  }
+  .nav-links ul li a {
+     color: #4B5D68;
+  }
+  .nav-links button {
+     width: 22.1rem;
+     height: 6rem;
+     border-radius: 20px;
+     padding: 16px 50px 16px 50px;
+     gap: 8px;
+     background: #CCAC00;
+     text-align: center;
+     justify-content: center;
+  }
+  .nav-links button img {
+     width: 20px;
+     height: 20px;
+  }
+  button a p {
+     display: inline;
+     text-align: center;
+     justify-content: center;
+     font-family: Poppins;
+     font-size: 16px;
+     font-weight: 600;
+     font-family: "Poppins", sans-serif;
+  }
+  .Hero {
+     width: 68.6rem;
+     height: 41rem;
+     gap: 48px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+  }
+  .Hero-text {
+     width: 68.671rem;
+     height: 30.2rem;
+     display: flex;
+     flex-direction: column;
+     gap: 48px;
+  }
+  .Hero-text h2 {
+     width: 68.6rem;
+     height: 17.4rem;
+     text-align: center;
+     font-family: "Poppins", sans-serif;
+     font-size: 6.7rem;
+     font-weight: 700;
+     color:  #212353;
+  }
+  .Hero-text span {
+     color: #6468a6;
+  }
+  .Hero-text p {
+     width: 68.6rem;
+     height: 174px;
+     font-family: "Mulish", sans-serif;
+     font-family: Mulish;
+     font-size: 2.1rem;
+     font-weight: 500;
+     text-align: center;
+     justify-self: center;
+     
+  }
+  .CTAs {
+     width: 49.1rem;
+     height: 6rem;
+     border: 1px 0px 0px 0px;
+     margin-inline: auto;
+     display: flex;
+     justify-content: space-between;
+     
+  }
+  .Highlighted-CTAs {
+     width: 22.1rem;
+     height: 6rem;
+     top: 350px;
+     left: 97.85px;
+     gap: 20px;
+  }
+  .Highlighted-CTAs button {
+     width: 22.1rem;
+     height: 6rem;
+     padding: 16px 50px 16px 50px;
+     gap: 8px;
+     border-radius: 20px;
+     background: #CCAC00;
+  }
+  .Highlighted-CTAs button a {
+     font-family: "Poppins", sans-serif;
+     font-size: 1.6rem;
+     font-weight: 600;
+     text-align: center;
+     color: #212353;
+  }
+  .bj4 {
+     width: 22.2;
+     height: 6rem;
+     top: 350px;
+     left: 366.85px;
+     padding: 16px 50px 16px 50px;
+     gap: 8px;
+     border-radius: 20px;
+     border: 1px 0px 0px 0px;
+     background: #FFFFFF;
+     border: 1px solid #CCAC00
+  }
+  .bj4 a {
+     font-family: "Poppins", sans-serif;
+     font-size: 1.6rem;
+     font-weight: 600;
+     text-align: center;
+     color: #212353;
+     
+  }
+  .Section2 {
+     width: 144rem;
+     height: 72.1;
+     top: 680px;
+     padding: 150px 0px 150px 0px;
+     gap: 48px;
+  }
+  .Group3 {
+     width: 128rem;
+     height: 46.9rem;
+     margin-inline: auto;
+     color: #212353;
+  }
+  .Group3 h3 {
+     font-family: "Poppins", sans-serif;
+     font-size: 3.8rem;
+     font-weight: 700;
+     text-align: center;
+     color: #212353;
+  }
+  .Card-row {
+     width: 128rem;
+     height: 37.2rem;
+     top: 247px;
+     left: 80px;
+     gap: 32px;
+     display: flex;
+     justify-content: space-between;
+  }
+ .Feature-card {
+  width: 37rem;
+  height: 37.2rem;
+  padding: 40px 30px 40px 30px;
+  border-radius: 20px;
+  border: 1px 0px 0px 0px;
+  justify-content: space-between;
+  margin-inline: auto;
+  background: #FFFFFF;
+  border: 1px solid #E5F4F2;
+  box-shadow: 34.85px 29.63px 48.34px 0px #3366FF0D;
+ }
+ .Card-info {
+  width: 31rem;
+  height: 29.2rem;
+  gap: 30px;
+  display:flex;
+  flex-direction: column;
+ }
+.Card-info Figure {
+    width: 8.2rem;
+    height: 8.2rem;
+    display: flex;
+    align-self: center;
+}
+.text {
+        width: 31rem;
+        height: 18rem;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+}
+.text h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: #212353;
+}
+.text p {
+    font-family: "Mulish", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    color: #4B5D68;
+}
+.Everything-section {
+    border: 5px solid black;
+    width: 144rem;
+    min-height: 111.3rem;
+    top: 1401px;
+    padding: 48px 0px 48px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    background: #6468A6;
+
+}
+.Explore {
+    border: 2px solid blue;
+    width: 21.5rem;
+    height: 5.6rem;
+    padding: 16px 50px 16px 50px;
+    gap: 8px;
+    border-radius: 20px;
+    border: 1px 0px 0px 0px;
+    background: #FFFFFF;
+    border: 1px solid #CCAC00
+
+}
+.Explore p {
+    border: 3px solid red;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    color: #212353;
+}
+.one-piece {
+    max-width: 1170rem;
+    min-height: 91.3rem;
+    border: 5px solid green;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.one-piece h3 {
+    border: 3px solid black;
+    width: 43.6rem;
+    height: 4.9rem;
+    top: 48px;
+    left: 502px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-size: 3.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-inline: auto;
+
+}
+.All-tracks {
+    border: 5px solid blue;
+    width: 117rem;
+    height: 81.6rem;
+    top: 145px;
+    left: 135px;
+    display: flex;
+    flex-direction: column;
+}
