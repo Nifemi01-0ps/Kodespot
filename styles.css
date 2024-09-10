@@ -268,14 +268,17 @@
    width: 117rem;
    height: 91.3rem;
    color: #FFFFFF; 
-   margin-inline: auto;  
-
+   margin-inline: auto; 
+   border: 5px solid black;
+   display: flex;
+   flex-direction: column;
+   gap: 30px
 }  
 .one-piece h3 {
    font-family: "Poppins", sans-serif;
    font-size: 3.8rem;
    font-weight: 700;
-   text-align: center; */
+   text-align: center;
 }
  .All-tracks {
    width: 117rem;
@@ -285,7 +288,8 @@
    display: flex;
    flex-direction: column;
    justify-content: space-between; 
-}  */
+   border: 5px solid red
+} 
    .Card-row { 
    width: 117rem;
    height: 38.4rem;
