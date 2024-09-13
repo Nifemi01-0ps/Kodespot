@@ -262,6 +262,8 @@
    gap: 48px;
    display:flex;
    background-color: #6468A6; 
+   display: flex;
+   flex-direction: column;
 
 } 
 .one-piece { 
@@ -269,17 +271,17 @@
    height: 91.3rem;
    color: #FFFFFF; 
    margin-inline: auto; 
-   border: 5px solid black;
    display: flex;
    flex-direction: column;
-   gap: 30px
-}  
+   gap: 30px;
+}
 .one-piece h3 {
    font-family: "Poppins", sans-serif;
    font-size: 3.8rem;
    font-weight: 700;
    text-align: center;
 }
+
  .All-tracks {
    width: 117rem;
    height: 81.6rem;
@@ -287,8 +289,7 @@
    left: 135px;
    display: flex;
    flex-direction: column;
-   justify-content: space-between; 
-   border: 5px solid red
+   justify-content: space-between;
 } 
    .Card-row { 
    width: 117rem;
@@ -305,13 +306,16 @@
    border-radius: 20px;
    border: 1px 0px 0px 0px;
    justify: space-between;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
 }
 .Card-info {
    width: 31rem;
    height: 24.4rem;
    gap: 30px;
    display: flex;
-} */
+} 
  .Card-info figure {
    width: 8.2rem;
    hieght: 8.2rem;
@@ -329,7 +333,6 @@
    font-weight: 600;
    text-align: center;
    color: #212353;
-;
 }
 .text p {
    font-family: "Mulish", sans-serif;
@@ -337,3 +340,42 @@
    font-weight: 400;
    text-align: center;
 } 
+.Feature-card a {
+   width: 11.8rem;
+   height: 30rem;
+   gap: 8px;
+   border-radius: 20px;
+   display: flex;
+   align-self: center;
+}
+.Feature-card a p {
+   font-family: "Poppins", sans-serif;
+   font-size: 1.6rem;
+   font-weight: 600;
+   color: #212353;
+}
+.Feature-card a img {
+   width: 20px;
+   height: 20px;
+   gap: 0px;
+   opacity: 0px;
+}
+.Everything-b {
+   width: 21.5rem;
+   height: 5.6rem;
+   gap: 8px;
+   border-radius: 20px;
+   align-self: center;
+   background: #FFFFFF;
+   border: 1px solid #CCAC00;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Everything-b p {
+   font-family: "Poppins", sans-serif;
+   font-size: 1.6rem;
+   font-weight: 600;
+   color: #212353;
+   text-align: center;
+}
