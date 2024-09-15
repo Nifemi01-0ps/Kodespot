@@ -514,3 +514,101 @@
    font-weight: 400;
    text-align: left;
 }
+.Support-section {
+   width: 144.1rem;
+   height: 62.5rem;
+   top: 3927px;
+   left: -1px;
+   padding: 150px 0px 150px 0px;
+   gap: 48px;
+   display: flex;
+   justify-content: center;
+   align-self: center;
+}
+.Group-7 {
+   width: 128rem;
+   height: 32.5rem;
+   border: 1px 0px 0px 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.Group-6 {
+   width: 1280px;
+   height: 217px;
+   top: 150px;
+   left: 80.5px;
+}
+.Group-6 h3 {
+   font-family: "Poppins", sans-serif;
+   font-size: 3.8rem;
+   font-weight: 700;
+   text-align: center;
+   color: #212353;
+}
+.Group-6 p {
+   font-family: "Poppins", sans-serif;
+   font-size: 4rem;
+   font-weight: 400;
+   text-align: center;
+}
+.CTAss {
+   width: 46.7rem;
+   height: 6rem;
+   top: 415px;
+   left: 501px;
+   border: 1px 0px 0px 0px;
+   display:flex;
+   justify-content: space-between;
+   background: #FFFFFF;
+   border: Mixed solid #CCAC00;
+}
+.CTAs-button {
+   width: 19.3rem;
+   height: 6rem;
+   gap: 8px;
+   border-radius: 20px;
+   border: 1px 0px 0px 0px;
+   opacity: 0px;
+   display: flex;
+   background: #FFFFFF;
+   border: 1px solid #CCAC00;
+   justify-content: center;
+   align-items: center;
+}
+.CTAs-button p {
+   font-family: "Poppins", sans-serif;
+   font-size: 1.6rem;
+   font-weight: 600;
+   text-align: center;
+} 
+.Highligted-CtAs {
+   width: 22.6rem;
+   height:  6rem;
+   gap: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Highligted-CtAs button {
+   width: 22.6rem;
+   height: 6rem;
+   gap: 8px;
+   border-radius: 20px;
+   display: flex;
+   background: #CCAC00;
+   justify-content: center;
+   align-items: center;
+}
+.Highligted-CtAs button p {
+   font-family: "Poppins", sans-serif;
+   font-size: 1.6rem;
+   font-weight: 600;
+   text-align: center;
+   color: #212353
+}
+.Highligted-CtAs button img {
+   width: 20px;
+   height: 20px;
+}
